@@ -36,7 +36,7 @@ export default function GrowthSection() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                     {/* Kolom Kiri */}
                     <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
-                        <motion.h2 className="text-4xl sm:text-5xl font-bold leading-tight" variants={itemVariants}>
+                        <motion.h2 className="text-4xl sm:text-5xl font-bold leading-tight text-yellow-400" variants={itemVariants}>
                             TRUE GROWTH
                             <br />
                             COMES FROM THE

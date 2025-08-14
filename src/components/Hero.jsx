@@ -32,7 +32,7 @@ export default function Hero() {
                 {/* === KOLOM KANAN (TEKS) === */}
                 <div className="w-full md:w-1/2 text-center md:text-left pb-20 md:pb-0">
                     <motion.h2
-                        className="text-xl font-semibold uppercase tracking-wider mb-2"
+                        className="text-xl font-semibold uppercase text-gray-400 tracking-wider mb-2"
                         initial={{ y: 50, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.7, ease: "easeOut", delay: 0.4 }}
@@ -45,14 +45,12 @@ export default function Hero() {
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.7, ease: "easeOut", delay: 0.6 }}
                     >
-                        <span className="text-yellow-400">ANYTHING</span>
+                        <span className="text-yellow-400">ANYWHERE</span>
                         <br />
                         <span className="text-yellow-400">ANYTIME</span>
-                        <br />
-                        <span className="text-yellow-400">ANYWHERE</span>
                     </motion.h1>
                     <motion.p
-                        className="text-lg text-gray-300"
+                        className="text-lg text-gray-400"
                         initial={{ y: 50, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.7, ease: "easeOut", delay: 0.8 }}
@@ -62,6 +60,16 @@ export default function Hero() {
                 </div>
 
             </div>
+
+            {/* === TULISAN BARU DITAMBAHKAN DI SINI === */}
+            <motion.p
+                className="absolute bottom-8 right-12 text-gray-500 text-right text-lg font-semibold max-w-xs z-30"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7, ease: "easeOut", delay: 1.0 }}
+            >
+                SOMEONE WHO ALWAYS TRIES TO SOLVE ANY PROBLEM
+            </motion.p>
         </section>
     );
 }

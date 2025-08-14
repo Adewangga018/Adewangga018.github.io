@@ -52,7 +52,7 @@ export default function InfinitySection() {
                         transition={{ duration: 0.7, delay: 0.2 }}
                     >
                         <motion.h2
-                            className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl leading-tight"
+                            className="text-4xl font-bold tracking-tight text-yellow-400 sm:text-5xl leading-tight"
                             initial={{ y: 40, opacity: 0 }}
                             animate={inView ? { y: 0, opacity: 1 } : { y: 40, opacity: 0 }}
                             exit={{ y: 40, opacity: 0 }}
