@@ -4,6 +4,9 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // Atur base ke root karena nama repo Anda adalah <username>.github.io
+  base: '/', 
+
   plugins: [react()],
   resolve: {
     alias: {
