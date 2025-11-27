@@ -37,6 +37,7 @@ export default function Projects() {
         { imgSrc: '/images/reporting-generator.png', title: 'REPORTING GENERATOR', description: 'A system for automatically generating reports based on existing data.', link: 'https://github.com/daniprm/reporting-generator-kelompok1-ABD-A/tree/main' },
         { imgSrc: '/images/sudoku.png', title: 'SUDOKU', description: 'Logic-based number puzzle by filling a 9x9 grid with the numbers 1 to 9.', link: 'https://github.com/ahmadhilmi9/fp-asd-group-1' },
         { imgSrc: '/images/tictactoe.png', title: 'TICTACTOE', description: 'Game for two players X and O who take turns marking the spaces in a 3×3 grid', link: 'https://github.com/ahmadhilmi9/fp2-asd-group-1' },
+        { imgSrc: '/images/estwo-computer.png', title: 'ESTWO COMPUTER (IT PM)', description: 'The best quality used laptop store website in Surabaya. Built by a team of three', link: 'https://github.com/Adewangga018/estwo-computer.git' },
     ];
     return (
         <motion.section
@@ -136,7 +137,7 @@ export default function Projects() {
                                         href={p.link}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="bg-dark-gray rounded-lg p-4 flex flex-col items-center text-center shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-light-gold"
+                                        className="bg-dark-gray rounded-lg p-4 flex flex-col items-center justify-center text-center shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-light-gold min-h-[300px]"
                                         tabIndex={0}
                                     >
                                         <img src={p.imgSrc} alt={p.title} className="mb-4 rounded-lg max-w-full max-h-40 object-contain bg-gray-100" />
