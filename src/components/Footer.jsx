@@ -71,7 +71,7 @@ export default function Footer() {
                             A reflection of my journey and skills. More than just a record of work, it tells the story of growth and the values i bring into every project.
                         </motion.p>
                         <motion.a 
-                            href="https://drive.google.com/file/d/1lbfVBx6GDnTTxFJ6YxzVhAm9ZbWEAggj/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1GGkRXkkCHX2OOZIh4-GfAEI08ZsQGErR/view?usp=drive_link"
                             target="_blank"
                             className="mt-8 inline-block bg-yellow-400 text-gray-500 px-10 py-4 rounded-lg font-extrabold text-2xl hover:bg-yellow-400 hover:text-gray-900 transition-colors duration-300"
                             variants={itemVariants(0.6)}
