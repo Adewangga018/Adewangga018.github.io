@@ -1,0 +1,50 @@
+{
+  "hash": "591cb1bd",
+  "browserHash": "148feb37",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "e97dce1f",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "9ee41db6",
+      "needsInterop": true
+    },
+    "i18next": {
+      "src": "../../node_modules/i18next/dist/esm/i18next.js",
+      "file": "i18next.js",
+      "fileHash": "da423be4",
+      "needsInterop": false
+    },
+    "react-i18next": {
+      "src": "../../node_modules/react-i18next/dist/es/index.js",
+      "file": "react-i18next.js",
+      "fileHash": "421196bc",
+      "needsInterop": false
+    },
+    "i18next-browser-languagedetector": {
+      "src": "../../node_modules/i18next-browser-languagedetector/dist/esm/i18nextBrowserLanguageDetector.js",
+      "file": "i18next-browser-languagedetector.js",
+      "fileHash": "44115bc3",
+      "needsInterop": false
+    },
+    "i18next-http-backend": {
+      "src": "../../node_modules/i18next-http-backend/esm/index.js",
+      "file": "i18next-http-backend.js",
+      "fileHash": "8082cbfb",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-YQAOMQCT": {
+      "file": "chunk-YQAOMQCT.js"
+    },
+    "chunk-BKDDKEDW": {
+      "file": "chunk-BKDDKEDW.js"
+    }
+  }
+}
