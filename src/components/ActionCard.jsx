@@ -89,6 +89,12 @@ export default function ActionCard() {
             title: 'MONITORING & EVALUATION',
             description: 'Reports on monitoring and evaluation of IT project performance.',
             link: 'https://drive.google.com/file/d/1dRLSin3Rjodws3IU4LfD_mlZQdmYZOVe/view?usp=drive_link' // Ganti dengan link dokumen Anda
+        },
+        {
+            imgSrc: '/images/prd-synergy.png',
+            title: 'PRD SYNERGY',
+            description: 'Product Requirement Document for Synergy project outlining features and specifications.',
+            link: 'https://drive.google.com/file/d/1C4KsBsd4r9AJwS7sDzlBiF8TbLPFpVTE/view?usp=sharing'
         }
     ];
 
