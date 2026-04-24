@@ -38,6 +38,7 @@ export default function Projects() {
         { imgSrc: '/images/sudoku.png', title: 'SUDOKU', description: 'Logic-based number puzzle by filling a 9x9 grid with the numbers 1 to 9.', link: 'https://github.com/ahmadhilmi9/fp-asd-group-1' },
         { imgSrc: '/images/tictactoe.png', title: 'TICTACTOE', description: 'Game for two players X and O who take turns marking the spaces in a 3×3 grid', link: 'https://github.com/ahmadhilmi9/fp2-asd-group-1' },
         { imgSrc: '/images/estwo-computer.png', title: 'ESTWO COMPUTER', description: 'The best quality used laptop store website in Surabaya. Built by a team of three', link: 'https://github.com/Adewangga018/estwo-computer.git' },
+        { imgSrc: '/images/icon-synergy.png', title: 'SYNERGY', description: 'A web-based project management application to synergize teams in achieving goals.', link: 'https://github.com/Adewangga018/synergy.git' },
     ];
     return (
         <motion.section
